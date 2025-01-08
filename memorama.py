@@ -14,7 +14,7 @@
 
 from random import *
 from turtle import *
-from freegames import path
+from freegames import path # type: ignore included in virtual env
 
 # Return full path fo 'filename' in freegames module 
 car = path('car.gif')
